@@ -45,16 +45,8 @@ The system models patient physiology as a multi-input, multi-output (MIMO) contr
 │   ├── optimization/   # Policy / inverse optimization algorithms
 │   └── evaluation/     # Trajectory validation and safety constraint checks
 ├── docs/               # NICU variable definitions, target vital ranges, and protocols
-└── README.md
 ```
 
-## Roadmap
-- [x] Define NICU input variables (ventilation, fluids, cardiac meds) and target vital sign outputs
-- [x] Initialize repository structure
-- [ ] Finalize data schema, sampling intervals, and ethical/IRB approval
-- [ ] Build data extraction and time-alignment pipeline
-- [ ] Train baseline Input → Vital Sign predictive models
-- [ ] Implement constrained optimization to recommend optimal intervention settings
 
 ## Disclaimer
-*This repository is strictly for research and educational purposes. The models and code developed here are not validated for clinical use and must not be used to guide real-time neonatal care.*
+*This repository is strictly for  educational purposes. The models and code developed here are not validated for clinical use and must not be used to guide real-time neonatal care.*
